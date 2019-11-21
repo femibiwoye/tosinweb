@@ -1,1 +1,9 @@
 https://www.w3schools.com/tags/
+
+
+Take home - 21/Nov/19
+
+- Test colspan options and change the order of the colspan in the tbody
+- Habe ordered list and unordered list in table
+- Create text that links to three different website
+- - Make one of the image link to another address.
