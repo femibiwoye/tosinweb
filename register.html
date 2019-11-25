@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to register</title>
+
+</head>
+
+<body>
+    <h2>Welcome to register page</h2>
+
+    <hr>
+
+    <!-- 
+email
+firstname
+lastname
+password
+
+
+WYSIWYG
+     -->
+
+
+    <form method="get">
+        Firstname: <input type="text" name="firstname" required>
+        Lastname: <input type="text" name="lname" required>
+        <br><br>
+        Email: <input type="text">
+        Phone: <input type="text">
+        <br><br>
+        Gender:
+        Male <input value="male" type="radio" name="gender">
+        Female <input value="female" type="radio" name="gender">
+        Prefer not to say
+        <input type="radio" value="nothing" name="gender">
+        <br><br>
+        Bio: <textarea></textarea>
+        <br><br>
+        Hobbies: Reading <input type="checkbox"> Movies <input type="checkbox">
+        <br><br>
+        Countries:
+        <select name="country" required>
+            <option value="">Select</option>
+            <option value="NG">Nigeria</option>
+            <option value="GH">Ghana</option>
+            <option value="TG" selected>Togo</option>
+            <option value="ZB">Zambia</option>
+        </select>
+        <br><br>
+        Profile picture: <input type="file">
+        <hr>
+        <input type="button" value="Submit button">
+        <input type="submit" value="Submit form">
+        <input type="reset" value="Reset form">
+
+
+    </form>
+
+
+</body>
+
+</html>

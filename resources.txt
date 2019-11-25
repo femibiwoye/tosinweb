@@ -7,3 +7,56 @@ Take home - 21/Nov/19
 - Habe ordered list and unordered list in table
 - Create text that links to three different website
 - - Make one of the image link to another address.
+
+
+
+
+http: hypertext transfer protocol
+
+https: hypertext transfer protocol secure
+
+http://vibespotmusic.com/
+
+
+
+https://findlawyer.ng/
+
+
+
+<tag element="something" element2="something" element3="something">
+
+</a>
+
+
+{% comment %} OL {% endcomment %}
+1,2,3
+a,b,c, A,B,C
+i,ii,iii
+
+
+{% comment %} Form request method {% endcomment %}
+- get: receive data from the server
+- post: submitting datat to the server
+- put: get+post
+- delete: remove
+
+{% comment %} Types of form {% endcomment %}
+- Textbox: The regular one line input textbox. e.g accepts your name
+- Textarea: Multiline input field. e.g for lengthy content
+- Radio: To choose one in multiple options
+- checkbox: To select multiple options
+- Select(dropdown): You'll choose from list if options
+- Button(plain button/submit): button clicked to submit a form
+
+
+
+Take home - 25/Nov/19
+- Name your form bio
+- Create a form and place it in a table
+|-----------------------|
+|Label|  Field   |      |                        
+|-----------------------|
+|Label|  Field   |      |  
+|-----------------------|
+-------------------------
+- Create a login page, leti it be accessible from register page and homepage.
