@@ -10,7 +10,6 @@
     <h2>Welcome to register page</h2>
 
     <hr>
-
     <!-- 
 email
 firstname
@@ -21,13 +20,24 @@ password
 WYSIWYG
      -->
 
-
     <form method="get">
-        Firstname: <input type="text" name="firstname" required>
+        <label>Firstname:</label> <input type="text" name="firstname" required>
         Lastname: <input type="text" name="lname" required>
         <br><br>
-        Email: <input type="text">
-        Phone: <input type="text">
+        Email: <input type="email">
+        Phone: <input type="tel">
+        <br><br>
+        DOB: <input type="date">
+        Birth time: <input type="time">
+        <br><br>
+        Hidden: <input type="hidden">
+        URL: <input type="url">
+        <br><br>
+        Week: <input type="week">
+        Month: <input type="month">
+        <br><br>
+        Birth Year: <input type="number" min="1990" max="2000">
+        Range: <input type="range">
         <br><br>
         Gender:
         Male <input value="male" type="radio" name="gender">
@@ -53,11 +63,11 @@ WYSIWYG
         <input type="button" value="Submit button">
         <input type="submit" value="Submit form">
         <input type="reset" value="Reset form">
-
-
     </form>
 
 
 </body>
 
 </html>
+
+<!-- name@jfdj.ext -->

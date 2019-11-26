@@ -60,3 +60,7 @@ Take home - 25/Nov/19
 |-----------------------|
 -------------------------
 - Create a login page, leti it be accessible from register page and homepage.
+
+
+Take home - 26/Nov/19
+- https://www.lipsum.com/
