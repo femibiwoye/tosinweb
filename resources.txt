@@ -64,3 +64,7 @@ Take home - 25/Nov/19
 
 Take home - 26/Nov/19
 - https://www.lipsum.com/
+
+
+Take Home - 02/Dec/2019
+- http://generator.lorem-ipsum.info/
