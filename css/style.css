@@ -1,0 +1,25 @@
+body{
+
+    /* 
+    
+    RRGGBB
+    0
+    f
+
+
+    0
+
+    #RRGGBB
+     */
+    background-color: lightgray;
+}
+
+
+.custButton{
+    height: 40px;
+    width: 90px;
+    background-color: #0f4d44;
+    border-color: #1e8677;
+    color: white;
+    border-radius: 10px;
+}
