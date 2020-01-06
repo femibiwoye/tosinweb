@@ -68,3 +68,8 @@ Take home - 26/Nov/19
 
 Take Home - 02/Dec/2019
 - http://generator.lorem-ipsum.info/
+
+
+
+Take home - 06-01-2020
+- Make one of the top-menu link a button;

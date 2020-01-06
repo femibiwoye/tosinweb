@@ -16,10 +16,24 @@ body{
 
 
 .custButton{
+    
     height: 40px;
     width: 90px;
     background-color: #0f4d44;
     border-color: #1e8677;
     color: white;
     border-radius: 10px;
+}
+.red-text{
+    color:red;
+    line-height: 3;
+    
+    white-space:pre-wrap;
+    
+
+}
+#post-body {
+    size: 30px;
+    color: red;
+    line-height: 50px;
 }
