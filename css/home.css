@@ -7,16 +7,23 @@ body{
      margin: 0 90px 0 90px;
      border-left-style: solid;
      border-left-color: green;
+     border-left-width: 15px;
      border-right-style: solid;
      border-right-color: green;
+     border-left-width: 15px;
+
+    min-height: 850px;
+
 }
 
 .header{
+    /* background-color: purple; */
+    /* opacity: 0.9; */
     padding:10px;
     display: flex;
     border: #008000;
     border-width: 2px;
-    border-style: solid;
+    border-style: double;
 }
 
 
@@ -24,20 +31,13 @@ body{
     width: 120px;
 }
 
-.menu li{
-display: inline;
-padding: 10px;
-}
-
-
-
-.right-nav{
-    width: 100%;
-    
-}
 
 .menu{
     float: right;
+}
+.menu li{
+display: inline;
+padding: 10px;
 }
 .menu a{
     text-decoration: none;
@@ -45,10 +45,32 @@ padding: 10px;
     /* cursor: copy; */
 }
 .menu a:hover{
-    color:grey;
+    color:grey !important;
     font-size: 27px;
     transition-duration: 1s;
 }
+
+.menu a:visited{
+    color:red;
+}
+.menu a:link{
+    color:violet;
+}
+
+.menu a{
+    text-decoration: none;
+    color:darkkhaki;
+    /* cursor: copy; */
+}
+
+
+.right-nav{
+    width: 100%;
+    /* background-color: pink; */
+    
+}
+
+
 
 
 .three-box{
@@ -56,16 +78,15 @@ padding: 10px;
     display: flex;
 }
 .box-body{
-    
     padding: 15px;
     margin: 0 20px 0 20px;
-    border: solid grey 2px;
+    border: solid grey 1px;
     border-radius: 5px;
 }
 
-.title{
+.three-box .title{
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     border-bottom-style: solid;
 }
 
@@ -74,14 +95,118 @@ padding: 10px;
 }
 
 .button1{
-    
     background-color: green;
     padding: 10px;
     border-radius: 4px;
     color: #e9edf1;
     border-color: #096809;
+    text-decoration: none;
 }
 
 .button1:hover{
     background-color: #096809;
+}
+
+
+
+.withBgColor{
+
+    background-color: #a1a5aa;
+    min-height: 300px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.withBgColor .title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.withBgColor .body{
+    font-size: 20px;
+}
+
+.story .full{
+    display: none;
+}
+
+.story .readMore:hover .full{
+    text-decoration: none;
+    color:black;
+display: block;
+}
+
+.subMenu{
+    display: none;
+    width: 170px;
+    background-color: black;
+    color: white;
+    float: right;
+    right: 20px;
+}
+.subMenu li{
+    display: block;
+}
+.subMenu a:hover{
+    font-size: unset;
+}
+
+.hasMenu:hover .subMenu{
+display: block;
+position: absolute;
+
+}
+
+.footer{
+    padding: 30;
+    display: flex;
+}
+
+.footer h4{
+    font-size: 20px;
+    color: #141414;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.footer .each-space{
+    width: 30%;
+    margin: 30px;
+}
+
+.footer .news{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-btn{
+    padding: 10px;
+    width: 35px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.fb{
+    background-color: blue;
+}
+
+.tw{
+    background-color: #208ac7;
+}
+
+.ig{
+    background-color: #be4414;
 }
