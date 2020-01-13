@@ -1,4 +1,4 @@
-body{
+#body{
     background-color: #e9edf1;
     /* margin:50px; */
     /* margin-left: 50px;
@@ -115,6 +115,10 @@ padding: 10px;
     min-height: 300px;
     padding: 30px;
     overflow: hidden;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPciYCmnc9gTZymGEn5W1BanGCLWlnz4KHQX4bT0tjtRBIF5AOw&s");
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    
 }
 
 .withBgColor .title{
@@ -210,3 +214,54 @@ position: absolute;
 .ig{
     background-color: #be4414;
 }
+
+
+.signup-body{
+    margin-left: 30%;
+    width: 40%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 30px;
+}
+
+.one-field{
+    display: flex;
+    margin: 10px 0 10px;
+}
+
+.one-field label{
+font-size: 18px;
+font-family: 'Trebuchet MS';
+margin-right: 10px;
+margin-top:5px;
+width: 150px;
+text-align: right;
+}
+
+.one-field .text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+    .row{
+        /* display: flex; */
+        width: 100%;
+        margin-bottom: 60px;;
+        
+    }
+.left{
+    position: absolute;
+        margin-left: 0%;
+        z-index:5;
+}
+    .half{
+        position: absolute;
+        color: blue;
+        z-index:6;
+        margin-left: 19%;
+        /*  ; */
+    }
+    
+    

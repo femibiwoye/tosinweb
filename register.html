@@ -3,13 +3,14 @@
 
 <head>
     <title>Welcome to register</title>
-
+    <link href="css/home.css" rel="stylesheet">
+    
 </head>
 
 <body>
     <h2>Welcome to register page</h2>
 
-    <hr>
+
     <!-- 
 email
 firstname
@@ -19,53 +20,77 @@ password
 
 WYSIWYG
      -->
+    <section class="signup-body">
+        <form method="get">
+            <table>
+                <tr>
+                    <td>
+                        <div class="one-field">
+                            <label>Firstname:</label>
+                            <input type="text" class="text" name="firstname" required>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="one-field">
+                            <label>Lastname:</label>
+                            <input type="text" class="text" name="firstname" required>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 
-    <form method="get">
-        <label>Firstname:</label> <input type="text" name="firstname" required>
-        Lastname: <input type="text" name="lname" required>
-        <br><br>
-        Email: <input type="email">
-        Phone: <input type="tel">
-        <br><br>
-        DOB: <input type="date">
-        Birth time: <input type="time">
-        <br><br>
-        Hidden: <input type="hidden">
-        URL: <input type="url">
-        <br><br>
-        Week: <input type="week">
-        Month: <input type="month">
-        <br><br>
-        Birth Year: <input type="number" min="1990" max="2000">
-        Range: <input type="range">
-        <br><br>
-        Gender:
-        Male <input value="male" type="radio" name="gender">
-        Female <input value="female" type="radio" name="gender">
-        Prefer not to say
-        <input type="radio" value="nothing" name="gender">
-        <br><br>
-        Bio: <textarea></textarea>
-        <br><br>
-        Hobbies: Reading <input type="checkbox"> Movies <input type="checkbox">
-        <br><br>
-        Countries:
-        <select name="country" required>
-            <option value="">Select</option>
-            <option value="NG">Nigeria</option>
-            <option value="GH">Ghana</option>
-            <option value="TG" selected>Togo</option>
-            <option value="ZB">Zambia</option>
-        </select>
-        <br><br>
-        Profile picture: <input type="file">
-        <hr>
-        <input type="button" value="Submit button">
-        <input type="submit" value="Submit form">
-        <input type="reset" value="Reset form">
-    </form>
+            <div class="row">
+                <div class="one-field left">
+                    <label>Age:</label>
+                    <input type="text" class="text" name="firstname" required>
+                </div>
+                <div class="one-field half">
+                    <label>Email:</label>
+                    <input type="text" class="text" name="firstname" required>
+                </div>
+            </div>
 
+            Phone: <input type="tel">
+            <br><br>
+            DOB: <input type="date">
+            Birth time: <input type="time">
+            <br><br>
+            Hidden: <input type="hidden">
+            URL: <input type="url">
+            <br><br>
+            Week: <input type="week">
+            Month: <input type="month">
+            <br><br>
+            Birth Year: <input type="number" min="1990" max="2000">
+            Range: <input type="range">
+            <br><br>
+            Gender:
+            Male <input value="male" type="radio" name="gender">
+            Female <input value="female" type="radio" name="gender">
+            Prefer not to say
+            <input type="radio" value="nothing" name="gender">
+            <br><br>
+            Bio: <textarea></textarea>
+            <br><br>
+            Hobbies: Reading <input type="checkbox"> Movies <input type="checkbox">
+            <br><br>
+            Countries:
+            <select name="country" required>
+                <option value="">Select</option>
+                <option value="NG">Nigeria</option>
+                <option value="GH">Ghana</option>
+                <option value="TG" selected>Togo</option>
+                <option value="ZB">Zambia</option>
+            </select>
+            <br><br>
+            Profile picture: <input type="file">
 
+            <input type="button" value="Submit button">
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset form">
+        </form>
+
+    </section>
 </body>
 
 </html>
